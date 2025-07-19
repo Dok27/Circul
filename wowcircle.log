@@ -1,0 +1,208 @@
+2025-07-19 15:04:16,248 - __main__ - INFO - Веб-драйвер успешно настроен
+2025-07-19 15:04:16,249 - __main__ - INFO - Переходим на страницу входа: https://cp.wowcircle.net/login
+2025-07-19 15:04:21,392 - __main__ - INFO - Текущий URL: https://cp.wowcircle.net/login
+2025-07-19 15:04:21,406 - __main__ - INFO - Заголовок страницы: Личный Кабинет WoW Circle logon
+2025-07-19 15:04:21,406 - __main__ - INFO - Ищем поле для ввода логина...
+2025-07-19 15:04:21,431 - __main__ - INFO - Поле для логина найдено
+2025-07-19 15:04:21,431 - __main__ - INFO - Ищем поле для ввода пароля...
+2025-07-19 15:04:21,453 - __main__ - INFO - Поле для пароля найдено
+2025-07-19 15:04:21,454 - __main__ - INFO - Вводим учетные данные...
+2025-07-19 15:04:21,872 - __main__ - INFO - Ищем кнопку входа...
+2025-07-19 15:04:21,897 - __main__ - INFO - Кнопка входа найдена
+2025-07-19 15:04:22,068 - __main__ - INFO - Кнопка входа нажата
+2025-07-19 15:04:27,087 - __main__ - INFO - URL после входа: https://cp.wowcircle.net/
+2025-07-19 15:04:27,119 - __main__ - INFO - Успешный вход в систему
+2025-07-19 15:04:27,120 - __main__ - INFO - Ищем раздел голосования...
+2025-07-19 15:04:30,643 - __main__ - INFO - В 13-м div найден fa fa-flag, пробуем кликнуть по div через ActionChains
+2025-07-19 15:04:31,961 - __main__ - INFO - Клик по 13-му div 'button flex-sc' с fa fa-flag выполнен
+2025-07-19 15:04:34,825 - __main__ - INFO - Принудительный переход на страницу голосования: https://cp.wowcircle.net/vote
+2025-07-19 15:04:37,839 - __main__ - INFO - URL страницы голосования: https://cp.wowcircle.net/vote
+2025-07-19 15:04:37,853 - __main__ - INFO - Заголовок страницы: Личный Кабинет WoW Circle logon
+2025-07-19 15:04:38,028 - __main__ - ERROR - Не найден td с классом 'mid pt05' и нужным текстом (mmovote, top100arena, xtremetop100)
+2025-07-19 15:04:38,064 - __main__ - WARNING - Fallback-селектор не сработал: //a[contains(text(), 'Голосование')]. Ошибка: NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(), 'Голосование')]"}
+  (Session info: chrome=138.0.7204.157); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x5a2628d877da <unknown>
+#1 0x5a262882c2e0 <unknown>
+#2 0x5a262887de00 <unknown>
+#3 0x5a262887dff1 <unknown>
+#4 0x5a26288cc324 <unknown>
+#5 0x5a26288a38dd <unknown>
+#6 0x5a26288c971c <unknown>
+#7 0x5a26288a3683 <unknown>
+#8 0x5a262886fb5b <unknown>
+#9 0x5a2628870f31 <unknown>
+#10 0x5a2628d4c72b <unknown>
+#11 0x5a2628d50534 <unknown>
+#12 0x5a2628d33229 <unknown>
+#13 0x5a2628d510d8 <unknown>
+#14 0x5a2628d1761f <unknown>
+#15 0x5a2628d74dd8 <unknown>
+#16 0x5a2628d74fb6 <unknown>
+#17 0x5a2628d86af6 <unknown>
+#18 0x7e395329caa4 <unknown>
+#19 0x7e3953329c3c <unknown>
+
+2025-07-19 15:04:38,096 - __main__ - WARNING - Fallback-селектор не сработал: //a[contains(text(), 'Vote')]. Ошибка: NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(), 'Vote')]"}
+  (Session info: chrome=138.0.7204.157); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x5a2628d877da <unknown>
+#1 0x5a262882c2e0 <unknown>
+#2 0x5a262887de00 <unknown>
+#3 0x5a262887dff1 <unknown>
+#4 0x5a26288cc324 <unknown>
+#5 0x5a26288a38dd <unknown>
+#6 0x5a26288c971c <unknown>
+#7 0x5a26288a3683 <unknown>
+#8 0x5a262886fb5b <unknown>
+#9 0x5a2628870f31 <unknown>
+#10 0x5a2628d4c72b <unknown>
+#11 0x5a2628d50534 <unknown>
+#12 0x5a2628d33229 <unknown>
+#13 0x5a2628d510d8 <unknown>
+#14 0x5a2628d1761f <unknown>
+#15 0x5a2628d74dd8 <unknown>
+#16 0x5a2628d74fb6 <unknown>
+#17 0x5a2628d86af6 <unknown>
+#18 0x7e395329caa4 <unknown>
+#19 0x7e3953329c3c <unknown>
+
+2025-07-19 15:04:38,131 - __main__ - WARNING - Fallback-селектор не сработал: //a[contains(text(), 'Голосовать')]. Ошибка: NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(), 'Голосовать')]"}
+  (Session info: chrome=138.0.7204.157); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x5a2628d877da <unknown>
+#1 0x5a262882c2e0 <unknown>
+#2 0x5a262887de00 <unknown>
+#3 0x5a262887dff1 <unknown>
+#4 0x5a26288cc324 <unknown>
+#5 0x5a26288a38dd <unknown>
+#6 0x5a26288c971c <unknown>
+#7 0x5a26288a3683 <unknown>
+#8 0x5a262886fb5b <unknown>
+#9 0x5a2628870f31 <unknown>
+#10 0x5a2628d4c72b <unknown>
+#11 0x5a2628d50534 <unknown>
+#12 0x5a2628d33229 <unknown>
+#13 0x5a2628d510d8 <unknown>
+#14 0x5a2628d1761f <unknown>
+#15 0x5a2628d74dd8 <unknown>
+#16 0x5a2628d74fb6 <unknown>
+#17 0x5a2628d86af6 <unknown>
+#18 0x7e395329caa4 <unknown>
+#19 0x7e3953329c3c <unknown>
+
+2025-07-19 15:04:38,169 - __main__ - WARNING - Fallback-селектор не сработал: //a[contains(@href, 'vote')]. Ошибка: NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(@href, 'vote')]"}
+  (Session info: chrome=138.0.7204.157); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x5a2628d877da <unknown>
+#1 0x5a262882c2e0 <unknown>
+#2 0x5a262887de00 <unknown>
+#3 0x5a262887dff1 <unknown>
+#4 0x5a26288cc324 <unknown>
+#5 0x5a26288a38dd <unknown>
+#6 0x5a26288c971c <unknown>
+#7 0x5a26288a3683 <unknown>
+#8 0x5a262886fb5b <unknown>
+#9 0x5a2628870f31 <unknown>
+#10 0x5a2628d4c72b <unknown>
+#11 0x5a2628d50534 <unknown>
+#12 0x5a2628d33229 <unknown>
+#13 0x5a2628d510d8 <unknown>
+#14 0x5a2628d1761f <unknown>
+#15 0x5a2628d74dd8 <unknown>
+#16 0x5a2628d74fb6 <unknown>
+#17 0x5a2628d86af6 <unknown>
+#18 0x7e395329caa4 <unknown>
+#19 0x7e3953329c3c <unknown>
+
+2025-07-19 15:04:38,203 - __main__ - WARNING - Fallback-селектор не сработал: //a[contains(@href, 'voting')]. Ошибка: NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(@href, 'voting')]"}
+  (Session info: chrome=138.0.7204.157); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x5a2628d877da <unknown>
+#1 0x5a262882c2e0 <unknown>
+#2 0x5a262887de00 <unknown>
+#3 0x5a262887dff1 <unknown>
+#4 0x5a26288cc324 <unknown>
+#5 0x5a26288a38dd <unknown>
+#6 0x5a26288c971c <unknown>
+#7 0x5a26288a3683 <unknown>
+#8 0x5a262886fb5b <unknown>
+#9 0x5a2628870f31 <unknown>
+#10 0x5a2628d4c72b <unknown>
+#11 0x5a2628d50534 <unknown>
+#12 0x5a2628d33229 <unknown>
+#13 0x5a2628d510d8 <unknown>
+#14 0x5a2628d1761f <unknown>
+#15 0x5a2628d74dd8 <unknown>
+#16 0x5a2628d74fb6 <unknown>
+#17 0x5a2628d86af6 <unknown>
+#18 0x7e395329caa4 <unknown>
+#19 0x7e3953329c3c <unknown>
+
+2025-07-19 15:04:38,235 - __main__ - WARNING - Fallback-селектор не сработал: //li/a[contains(text(), 'Голосование')]. Ошибка: NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//li/a[contains(text(), 'Голосование')]"}
+  (Session info: chrome=138.0.7204.157); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x5a2628d877da <unknown>
+#1 0x5a262882c2e0 <unknown>
+#2 0x5a262887de00 <unknown>
+#3 0x5a262887dff1 <unknown>
+#4 0x5a26288cc324 <unknown>
+#5 0x5a26288a38dd <unknown>
+#6 0x5a26288c971c <unknown>
+#7 0x5a26288a3683 <unknown>
+#8 0x5a262886fb5b <unknown>
+#9 0x5a2628870f31 <unknown>
+#10 0x5a2628d4c72b <unknown>
+#11 0x5a2628d50534 <unknown>
+#12 0x5a2628d33229 <unknown>
+#13 0x5a2628d510d8 <unknown>
+#14 0x5a2628d1761f <unknown>
+#15 0x5a2628d74dd8 <unknown>
+#16 0x5a2628d74fb6 <unknown>
+#17 0x5a2628d86af6 <unknown>
+#18 0x7e395329caa4 <unknown>
+#19 0x7e3953329c3c <unknown>
+
+2025-07-19 15:04:38,266 - __main__ - WARNING - Fallback-селектор не сработал: //nav//a[contains(text(), 'Голосование')]. Ошибка: NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//nav//a[contains(text(), 'Голосование')]"}
+  (Session info: chrome=138.0.7204.157); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x5a2628d877da <unknown>
+#1 0x5a262882c2e0 <unknown>
+#2 0x5a262887de00 <unknown>
+#3 0x5a262887dff1 <unknown>
+#4 0x5a26288cc324 <unknown>
+#5 0x5a26288a38dd <unknown>
+#6 0x5a26288c971c <unknown>
+#7 0x5a26288a3683 <unknown>
+#8 0x5a262886fb5b <unknown>
+#9 0x5a2628870f31 <unknown>
+#10 0x5a2628d4c72b <unknown>
+#11 0x5a2628d50534 <unknown>
+#12 0x5a2628d33229 <unknown>
+#13 0x5a2628d510d8 <unknown>
+#14 0x5a2628d1761f <unknown>
+#15 0x5a2628d74dd8 <unknown>
+#16 0x5a2628d74fb6 <unknown>
+#17 0x5a2628d86af6 <unknown>
+#18 0x7e395329caa4 <unknown>
+#19 0x7e3953329c3c <unknown>
+
+2025-07-19 15:04:38,429 - __main__ - INFO - Браузер закрыт
+2025-07-19 15:09:41,688 - __main__ - INFO - Веб-драйвер успешно настроен
+2025-07-19 15:09:41,689 - __main__ - ERROR - Не указаны учетные данные для входа
+2025-07-19 15:09:41,795 - __main__ - INFO - Браузер закрыт
+2025-07-19 15:12:56,421 - __main__ - INFO - Веб-драйвер успешно настроен
+2025-07-19 15:12:56,421 - __main__ - INFO - Переходим на страницу входа: https://cp.wowcircle.net/login
+2025-07-19 15:13:01,766 - __main__ - INFO - Текущий URL: https://cp.wowcircle.net/login
+2025-07-19 15:13:01,783 - __main__ - INFO - Заголовок страницы: Личный Кабинет WoW Circle logon
+2025-07-19 15:13:01,784 - __main__ - INFO - Ищем поле для ввода логина...
+2025-07-19 15:13:01,809 - __main__ - INFO - Поле для логина найдено
+2025-07-19 15:13:01,809 - __main__ - INFO - Ищем поле для ввода пароля...
+2025-07-19 15:13:01,831 - __main__ - INFO - Поле для пароля найдено
+2025-07-19 15:13:01,831 - __main__ - INFO - Вводим учетные данные...
+2025-07-19 15:13:02,266 - __main__ - INFO - Ищем кнопку входа...
+2025-07-19 15:13:02,287 - __main__ - INFO - Кнопка входа найдена
+2025-07-19 15:13:02,477 - __main__ - INFO - Кнопка входа нажата
+2025-07-19 15:13:07,489 - __main__ - INFO - URL после входа: https://cp.wowcircle.net/login
+2025-07-19 15:13:07,497 - __main__ - INFO - Успешный вход в систему
+2025-07-19 15:13:07,666 - __main__ - INFO - Браузер закрыт
